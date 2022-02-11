@@ -1,0 +1,1 @@
+Get-ADComputer -LDAPFilter "(info=*MXL9174FKO*)"  -SearchBase 'OU=Standard,OU="Computers (W0U430)",OU=DPTMS,OU=IMCOM,OU=Campbell,OU=Installations,DC=nase,DC=ds,DC=army,DC=mil' -Properties *
